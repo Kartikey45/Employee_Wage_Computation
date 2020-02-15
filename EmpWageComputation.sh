@@ -1,6 +1,6 @@
 #!/bin/bash -x 
 
-echo "Welcome to Employee Wage Computation"
+echo "Welcome to Employee Wage Computation."
 
 #INITIALIZE THE VARIABLES AND CONSTANTS
 WAGE_PER_HOUR=20
@@ -14,7 +14,7 @@ workingHours=0
 #CHECK THE CONDITION AND CALCULATE EMPLOYEES'S WORKING HOURS  
 while(( $days<$WORKING_DAYS_PER_MONTH && $workingHours<$WORKING_HOURS_LIMIT ))
 do
-	#INCREMENT OF DAYS
+ 	#INCREMENT OF DAYS
 	(( days++ ))
 
 	#RANDOM CHECK
